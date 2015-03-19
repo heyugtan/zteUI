@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:orientation="vertical" >
+
+    <!-- 头部 -->
+    <include 
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        layout="@layout/act_detail_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 以下滚动内容开始 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/restaurant_icon" />
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="1.2"
+                        android:gravity="bottom|left"
+                        android:paddingBottom="10dp"
+                        android:text="@string/restaurant_name_sample"
+                        android:textColor="@color/font_color"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="1"
+                        android:gravity="top|left"
+                        android:text="@string/book_id_sample"
+                        android:textColor="@color/font_lable"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_line" />
+
+            <!-- 订单信息显示 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="15dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/contact"
+                        android:textColor="@color/font_lable"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/name"
+                        android:textColor="@color/font_color"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/divider_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/reservation_time"
+                        android:textColor="@color/font_lable"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/reservation_time_date"
+                        android:textColor="@color/font_color"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/divider_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/order_people"
+                        android:textColor="@color/font_lable"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/number"
+                        android:textColor="@color/font_color"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/divider_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/reservation_room"
+                        android:textColor="@color/font_lable"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/no"
+                        android:textColor="@color/font_color"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_line" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="15dp"
+                android:background="@color/divider_line" />
+
+            <!-- 备注 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="15dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/book_note_info"
+                    android:textColor="@color/font_lable"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/divider_line" />
+
+                <TextView
+                    android:id="@+id/et_text_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:gravity="top|left"
+                    android:paddingRight="10dp"
+                    android:text="@string/note_info_sample"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/font_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_line" />
+            
+            <Button
+                android:id="@+id/btn_reservation_detail_go" 
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/reservation_go"
+                android:background="@drawable/selector_stroke_theme_btn"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@drawable/selector_text_theme_btn" />
+            
+            <!-- 以下2个Button 可能会要放外面 -->
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/back_color"
+                android:orientation="horizontal">
+                <View 
+                    android:layout_width="0px"
+                    android:layout_weight="0.8"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_width="0px"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:text="@string/cancel_order"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:background="@drawable/shape_corner_pressed_btn"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center" />
+                <Button
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="@string/change_order"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/selector_theme_btn"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+                <View 
+                    android:layout_width="0px"
+                    android:layout_weight="0.8"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            
+            <!-- 以下滚动内容结束 -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

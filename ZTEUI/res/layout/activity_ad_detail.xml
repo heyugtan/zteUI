@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <WebView 
+        android:id="@+id/web_ad"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    
+    <Button
+        android:id="@+id/btn_evaluate_retaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/evaluate_restaurant"
+        android:gravity="center" />
+    
+    <Button
+        android:id="@+id/btn_complatint_retaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/complaint_restaurant"
+        android:gravity="center" />
+    
+    <Button
+        android:id="@+id/btn_reservation"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/reservation"
+        android:gravity="center" />
+    
+    <Button
+        android:id="@+id/btn_order_item"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/order_item_test"
+        android:gravity="center" />
+
+</LinearLayout>

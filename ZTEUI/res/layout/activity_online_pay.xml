@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        layout="@layout/act_head_with_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 订单编号 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:text="@string/order_id"
+                    android:textColor="@color/font_lable"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:text="@string/order_id_data"
+                    android:textColor="@color/font_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:text="@string/order_pay_amount"
+                    android:textColor="@color/font_lable"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:text="@string/money"
+                    android:textColor="@color/font_color"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pay_divider_wave"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="9dp"
+                android:gravity="center"
+                android:text="@string/order_pay_method"
+                android:textColor="@color/font_lable"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pay_divider_method"
+                tools:ignore="ContentDescription" />
+
+            <!-- 支付方式3种 -->
+            <LinearLayout
+                android:id="@+id/layout_pay_yinlian"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/selector_pay_layout"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:orientation="horizontal" >
+                <View 
+                    android:layout_width="0px"
+                    android:layout_weight="0.8"
+                    android:layout_height="match_parent" />
+                <ImageView 
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="46dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:src="@drawable/yinlian" />
+                <TextView 
+                    android:layout_width="0px"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:text="@string/order_pay_yinlian"
+                    android:textColor="@color/font_color"
+                    android:textSize="17sp"
+                    android:paddingLeft="5dp"
+                    android:gravity="left|center_vertical" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/layout_pay_weixin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/selector_pay_layout"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:orientation="horizontal" >
+                <View 
+                    android:layout_width="0px"
+                    android:layout_weight="0.8"
+                    android:layout_height="match_parent" />
+                <ImageView 
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="46dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:src="@drawable/weixin" />
+                <TextView 
+                    android:layout_width="0px"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:text="@string/order_pay_weixin"
+                    android:textColor="@color/font_color"
+                    android:textSize="17sp"
+                    android:paddingLeft="5dp"
+                    android:gravity="left|center_vertical" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/layout_pay_zhifubao"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/selector_pay_layout"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:orientation="horizontal" >
+                <View 
+                    android:layout_width="0px"
+                    android:layout_weight="0.8"
+                    android:layout_height="match_parent" />
+                <ImageView 
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="46dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:src="@drawable/zhifubao" />
+                <TextView 
+                    android:layout_width="0px"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:text="@string/order_pay_zhifubao"
+                    android:textColor="@color/font_color"
+                    android:textSize="17sp"
+                    android:paddingLeft="5dp"
+                    android:gravity="left|center_vertical" />
+            </LinearLayout>
+            
+            <Button 
+                android:id="@+id/btn_order_pay"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/order_pay"
+                android:background="@drawable/selector_theme_btn"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

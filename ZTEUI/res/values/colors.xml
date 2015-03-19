@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- zteUI 资源文件 -->
+    <color name="home_theme">#FF6900</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#808080</color>
+    <color name="pay_red">#E90000</color>
+    <color name="white_lucency">#00000000</color>
+    <color name="font_color">#373737</color>
+    <color name="font_lable">#909090</color>
+    <color name="font_light">#555555</color>
+    <color name="order_status">#8DDA66</color>
+    
+    <color name="divider_line">#D7D7D7</color>
+    <color name="back_color">#EFF0F2</color>
+    <color name="btn_pressed">#CCCCCC</color>
+    <color name="cb_pressed">#FF6600</color>
+    
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZTEUI</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <!-- zteUI 资源文件 -->
+    <string name="home_label">主页</string>
+    <string name="login_title">登录</string>
+    <string name="register">注册</string>
+    <string name="input_name_lable">用户名</string>
+    <string name="input_name_hint">用户名/手机</string>
+    <string name="input_passwd_lable">密码</string>
+    <string name="input_passwd_hint">6-20位字母、数字和符号</string>
+    
+    <!-- 确认下单页面 -->
+    <string name="confirm_order">确认下单</string>
+    <string name="meal_time">用餐时间</string>
+    <string name="order_contact">订餐联系人</string>
+    <string name="order_contact_phone">订餐人电话</string>
+    <string name="order_people">人数</string>
+    
+    <string name="order_food_name">已下菜单</string>
+    <string name="order_food_price">价格</string>
+    <string name="order_food_number">数量</string>
+    <string name="order_food_subtotal">小计</string>
+    <string name="order_food_total">总计</string>
+    <string name="order_food_commit">提交订单</string>
+    
+    <string name="time">2015-3-17 19:00</string>
+    <string name="name">飞哥</string>
+    <string name="phone">15112531001</string>
+    <string name="number">2</string>
+    <string name="markprice">原价 ￥362.00</string>
+    <string name="preferential">优惠后 ￥360.00</string>
+    
+    <!-- 在线订单支付页面 -->
+    <string name="online_pay">订单支付</string>
+    <string name="order_id">订单号</string>
+    <string name="order_pay_amount">支付金额</string>
+    <string name="order_pay_method">选择支付方式</string>
+    <string name="order_pay_yinlian">银联支付</string>
+    <string name="order_pay_weixin">微信支付</string>
+    <string name="order_pay_zhifubao">支付宝支付</string>
+    <string name="order_pay">确认支付</string>
+    
+    <string name="order_id_data">A150318229</string>
+    <string name="money">￥289.00</string>
+    
+    <!-- 评价餐厅 -->
+    <string name="evaluate_restaurant">评价餐厅</string>
+    <string name="service_score">服务评分</string>
+    <string name="food_score">菜品评分</string>
+    <string name="environment_score">环境评分</string>
+    <string name="text_description">文字描述</string>
+    <string name="descript_limit">长度在5-100字之间</string>
+    <string name="load_photo_text_limit">最多可上传5张图片</string>
+    <string name="evaluate_commit">确认提交</string>
+    
+    <!-- 投诉餐厅 -->
+    <string name="complaint_restaurant">投诉餐厅</string>
+    <string name="restaurant_name">餐厅名称</string>
+    <string name="complatint_type">投诉类型</string>
+    <string name="bad_taste">太难吃</string>
+    <string name="bad_service">服务差</string>
+    <string name="bad_environment">环境差</string>
+    <string name="bad_other">其他</string>
+    <string name="compalint_commit">提交</string>
+    <string name="complaint_explain">请详细描述举报内容，我们将为您的信息保密</string>
+    
+    <string name="restaurant_name_sample">老西安</string>
+    
+    <!-- 订座页面 -->
+    <string name="reservation">订座</string>
+    <string name="reservation_person">订座人信息</string>
+    <string name="contact">联系人</string>
+    <string name="contact_hint"> 请输入您的姓名</string>
+    <string name="contact_phone">联系人电话</string>
+    <string name="contact_phone_hint"> 请输入您的电话</string>
+    <!-- 人数 使用之前的  order_people -->
+    <string name="reservation_time">订餐时间</string>
+    <string name="book_room">我要订包房</string>
+    <string name="book_for_other">帮他人订餐</string>
+    <string name="book_for_other_name_hint">请输入就餐人姓名</string>
+    <string name="book_for_other_phone_hint">请输入就餐人电话</string>
+    <string name="book_note_info">备注信息</string>
+    <string name="note_info_sample">如：我们需要安静一点的包房</string>
+    <string name="reservation_confirm">确认订座</string>
+    
+    <string name="book_number">6人</string>
+    <string name="reservation_time_date">03月20日 18:00</string>
+    
+    <!-- 订座提交成功 页面 -->
+    <string name="reservation_success">订座提交成功</string>
+    <string name="book_success_info">预计5-20分钟客服将以\n短信的方式告知您订座的结果</string>
+    
+    <!-- 订座详情 页面 -->
+    <string name="reservation_detail">订座详情</string>
+    <string name="reservation_room">包房</string>
+    <string name="reservation_go">订餐</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="change_order">修改订单</string>
+    
+    <string name="book_id_sample">订单号 : A150318229</string>
+    <string name="no">否</string>
+    
+    
+    <!-- 订餐详情 页面 -->
+    <string name="order_detail">订单详情</string>
+    <string name="restaurant_name_lable">餐厅</string>
+    <string name="order_have_pay">已支付</string>
+    <string name="order_go_evaluate">去评价</string>
+    
+    <string name="restaurant_name_hunan">湖南湘菜馆</string>
+    
+    <!-- 订单列表 item -->
+    <string name="order_not_pay">未支付</string>
+    <string name="order_item_test">Item测试</string>
+
+</resources>

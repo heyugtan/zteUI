@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 头部 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/home_theme"
+        android:gravity="center"
+        android:text="@string/home_label"
+        android:textColor="@color/white"
+        android:textSize="19sp" />
+
+    <!-- 滚动广告 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_home_ad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/layout_ad_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+
+    <!-- 点击图片 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_marginTop="5dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/img_home_reserve"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/reserve"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:id="@+id/img_home_orders"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/orders" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_home_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="7"
+        android:contentDescription="@null"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/recommend" />
+
+</LinearLayout>

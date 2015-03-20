@@ -7,6 +7,8 @@
     
     <!-- zteUI 资源文件 -->
     <string name="home_label">主页</string>
+    
+    <!-- 用户注册页面 -->
     <string name="login_title">登录</string>
     <string name="register">注册</string>
     <string name="input_name_lable">用户名</string>
@@ -123,6 +125,34 @@
     <string name="change_pass_hint_current">请输入当前密码</string>
     <string name="change_pass_hint_new">请输入新密码</string>
     <string name="change_pass_hint_affirm">请确认新密码</string>
+    
+    <!-- 餐厅详情页面 -->
+    <string name="restaurant_detail">餐厅详情</string>
+    <string name="business_hours">营业时间：</string>
+    <string name="per_consumption">人均消费 700-1000</string>
+    <string name="i_order">我要订餐</string>
+    <string name="i_reservation">我要订座</string>
+    <string name="contact_phone_lable">联系电话:</string>
+    <string name="contact_address">地址:</string>
+    <string name="restaurant_qualification">餐厅资质</string>
+    <string name="restaurant_pictures">餐厅图片 - 这里需要修改-动态添加图片</string>
+    <string name="environment_desc">环境描述</string>
+    <string name="friend_recommend">网友推荐 - 需要添加数据 GridView</string>
+    <string name="taste">口味</string>
+    <string name="restaurant_evaluation">餐厅评价</string>
+    
+    
+    <string name="business_hours_time">08:00-22:00</string>
+    <string name="score_value">4.5</string>
+    <string name="landline">0743-5674523</string>
+    <string name="address_sample">湖南省湘西土家族苗族自治州吉首市人民中路128号</string>
+    <string name="environment_desc_sample">环境韵味古典，包间独立、安静，色彩的搭配柔和。菜品多，味道鲜美。装饰简洁古朴、大方。</string>
+    <string name="taste_sample">环境韵味古典，包间独立、安静，色彩的搭配柔和。菜品多，味道鲜美。装饰简洁古朴、大方。</string>
+    <string name="restaurant_evaluation_number">(321)</string>
+    <string name="user_name_sample">isme</string>
+    <string name="evaluation_sample">味道很独特，尤其是红烧肉，非常值得品尝</string>
+    
+    
     
 
 </resources>

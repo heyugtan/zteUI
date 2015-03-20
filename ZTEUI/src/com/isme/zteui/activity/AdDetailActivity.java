@@ -48,6 +48,7 @@ public class AdDetailActivity extends Activity implements OnClickListener {
 	private Button btnReservation;
 	private Button btnOrderItem;
 	private Button btnChangePass;
+	private Button btnRestauDetail;
 
 	/**
 	 * Title: 初始化 </br><br>
@@ -68,6 +69,9 @@ public class AdDetailActivity extends Activity implements OnClickListener {
 		
 		btnChangePass = (Button) findViewById(R.id.btn_change_pass);
 		btnChangePass.setOnClickListener(this);
+		
+		btnRestauDetail = (Button) findViewById(R.id.btn_restaurant_detail);
+		btnRestauDetail.setOnClickListener(this);
 	}
 
 	@Override
@@ -93,6 +97,11 @@ public class AdDetailActivity extends Activity implements OnClickListener {
 		// 修改密码
 		case R.id.btn_change_pass:
 			startActivity(new Intent(this, ChangePasswdActivity.class));
+			break;
+			
+		// 餐厅详情
+		case R.id.btn_restaurant_detail:
+			startActivity(new Intent(this, RestaurantDetailActivity.class));
 			break;
 
 		default:

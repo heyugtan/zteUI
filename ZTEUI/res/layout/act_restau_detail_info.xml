@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/restaurant_icon" />
+
+    <RelativeLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:paddingLeft="3dp" >
+
+        <TextView
+            android:id="@+id/tv_restau_name"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/restaurant_name_hunan"
+            android:textColor="@color/font_color"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_business_hours_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_restau_name"
+            android:gravity="center"
+            android:text="@string/business_hours"
+            android:textColor="@color/font_light"
+            android:textSize="14sp" />
+        
+        <TextView
+            android:id="@+id/tv_business_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_restau_name"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/tv_business_hours_lable"
+            android:text="@string/business_hours_time"
+            android:textColor="@color/font_light"
+            android:textSize="14sp" />
+
+        <RatingBar
+            android:id="@+id/ratb_restau_score"
+            style="@style/ratingbar_style_not_touch"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_business_hours_lable"
+            android:layout_marginTop="5dp"
+            android:isIndicator="true"
+            android:gravity="center" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/ratb_restau_score"
+            android:layout_below="@+id/tv_business_hours_lable"
+            android:text="@string/score_value"
+            android:textSize="14sp"
+            android:textColor="@color/font_light"
+            android:paddingLeft="5dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:text="@string/per_consumption"
+            android:textColor="@color/font_light"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

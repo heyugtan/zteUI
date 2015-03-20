@@ -11,37 +11,44 @@
     
     <Button
         android:id="@+id/btn_evaluate_retaurant"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="@string/evaluate_restaurant"
         android:gravity="center" />
     
     <Button
         android:id="@+id/btn_complatint_retaurant"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="@string/complaint_restaurant"
         android:gravity="center" />
     
     <Button
         android:id="@+id/btn_reservation"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="@string/reservation"
         android:gravity="center" />
     
     <Button
         android:id="@+id/btn_order_item"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="@string/order_item_test"
         android:gravity="center" />
     
     <Button
         android:id="@+id/btn_change_pass"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="@string/change_passwd"
+        android:gravity="center" />
+    
+    <Button
+        android:id="@+id/btn_restaurant_detail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/restaurant_detail"
         android:gravity="center" />
 
 </LinearLayout>

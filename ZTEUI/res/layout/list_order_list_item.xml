@@ -32,7 +32,7 @@
             android:gravity="center" />
         
         <TextView
-            android:id="@+id/tv_order_book_time" 
+            android:id="@+id/tv_business_hours_lable" 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/time"
@@ -46,7 +46,7 @@
             android:layout_height="38dp"
             android:text="@string/money"
             android:textSize="17sp"
-            android:layout_below="@+id/tv_order_book_time"
+            android:layout_below="@+id/tv_business_hours_lable"
             android:layout_marginTop="5dp"
             android:textColor="@color/home_theme"
             android:gravity="center" />

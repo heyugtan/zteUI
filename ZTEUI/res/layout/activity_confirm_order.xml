@@ -225,10 +225,11 @@
                     android:divider="@null" >
                 </ListView>
             </LinearLayout>
-            <View
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="1px"
-                android:background="@color/divider_line" />
+                android:layout_height="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pay_divider_wave" />
 
             <View
                 android:layout_width="match_parent"

@@ -37,6 +37,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
                         android:text="@string/complaint_restaurant"
                         android:textColor="@color/font_color"
                         android:textSize="17sp" />

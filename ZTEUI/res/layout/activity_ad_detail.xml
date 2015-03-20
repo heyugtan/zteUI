@@ -36,5 +36,12 @@
         android:layout_height="40dp"
         android:text="@string/order_item_test"
         android:gravity="center" />
+    
+    <Button
+        android:id="@+id/btn_change_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/change_passwd"
+        android:gravity="center" />
 
 </LinearLayout>

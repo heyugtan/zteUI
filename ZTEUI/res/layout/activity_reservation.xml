@@ -27,7 +27,8 @@
                 android:gravity="center_vertical"
                 android:paddingLeft="@dimen/act_padding_left"
                 android:text="@string/reservation_person"
-                android:textColor="@color/font_lable"
+                android:textColor="@color/font_color"
+                android:background="@color/white"
                 android:textSize="16sp" />
 
             <View
@@ -94,6 +95,7 @@
                         android:gravity="center_vertical"
                         android:hint="@string/contact_phone_hint"
                         android:paddingLeft="5dp"
+                        android:inputType="phone"
                         android:textColor="@color/font_color"
                         android:textSize="16sp" />
                 </RelativeLayout>
@@ -298,6 +300,7 @@
                         android:gravity="center_vertical"
                         android:hint="@string/book_for_other_phone_hint"
                         android:paddingLeft="5dp"
+                        android:inputType="phone"
                         android:textColor="@color/font_color"
                         android:textSize="16sp" />
                 </RelativeLayout>

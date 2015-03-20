@@ -117,5 +117,12 @@
     <!-- 订单列表 item -->
     <string name="order_not_pay">未支付</string>
     <string name="order_item_test">Item测试</string>
+    
+    <!-- 修改密码页面 -->
+    <string name="change_passwd">修改密码</string>
+    <string name="change_pass_hint_current">请输入当前密码</string>
+    <string name="change_pass_hint_new">请输入新密码</string>
+    <string name="change_pass_hint_affirm">请确认新密码</string>
+    
 
 </resources>

@@ -37,6 +37,7 @@
         <activity android:name="com.isme.zteui.activity.ReservationSucceActivity" />
         <activity android:name="com.isme.zteui.activity.ReservationDetailActivity" />
         <activity android:name="com.isme.zteui.activity.OrderDetailActivity" />
+        <activity android:name="com.isme.zteui.activity.ChangePasswdActivity" />
         
         <!-- 正式上线将之删除 -->
         <activity android:name="com.isme.zteui.activity.Item" />

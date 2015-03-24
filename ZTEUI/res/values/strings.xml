@@ -8,13 +8,15 @@
     <!-- zteUI 资源文件 -->
     <string name="home_label">主页</string>
     
-    <!-- 用户注册页面 -->
+    <!-- 用户登录页面 -->
     <string name="login_title">登录</string>
     <string name="register">注册</string>
     <string name="input_name_lable">用户名</string>
     <string name="input_name_hint">用户名/手机</string>
     <string name="input_passwd_lable">密码</string>
     <string name="input_passwd_hint">6-20位字母、数字和符号</string>
+    <string name="forget_passwd">忘记密码？</string>
+    <string name="login_third">第三方帐号登录</string>
     
     <!-- 确认下单页面 -->
     <string name="confirm_order">确认下单</string>
@@ -151,6 +153,19 @@
     <string name="restaurant_evaluation_number">(321)</string>
     <string name="user_name_sample">isme</string>
     <string name="evaluation_sample">味道很独特，尤其是红烧肉，非常值得品尝</string>
+    
+    <!-- 注册页面 -->
+    <string name="register_info">注册信息</string>
+    <string name="load_avatar">上传靓照头像</string>
+    <string name="gender">性别</string>
+    <string name="gender_man">男</string>
+    <string name="gender_female">女</string>
+    <string name="nickname">昵称</string>
+    <string name="nickname_hint">请输入昵称</string>
+    <string name="your_city">所在城市</string>
+    <string name="order_right">马上订餐</string>
+    
+    <string name="city_sample">湖南衡阳</string>
     
     
     

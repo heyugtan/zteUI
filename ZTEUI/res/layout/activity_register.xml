@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        layout="@layout/act_head_with_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 以下为滚动内容开始 -->
+
+
+            <!-- avatar -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/white"
+                android:paddingLeft="5dp" >
+
+                <ImageView
+                    android:id="@+id/iv_avatar"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/avatar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/iv_avatar"
+                    android:gravity="center"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="@string/load_avatar"
+                    android:textColor="@color/font_lable"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_line" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="15dp"
+                android:background="@color/divider_line" />
+
+            <!-- 信息输入 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="15dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/gender"
+                        android:textColor="@color/font_color"
+                        android:textSize="16sp" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="15dp"
+                            android:background="@color/white"
+                            android:button="@null"
+                            android:drawablePadding="3dp"
+                            android:drawableRight="@drawable/selector_gender_rb"
+                            android:gravity="center_vertical"
+                            android:text="@string/gender_female"
+                            android:textColor="@color/font_light"
+                            android:textSize="16sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:background="@color/white"
+                            android:button="@null"
+                            android:drawablePadding="3dp"
+                            android:drawableRight="@drawable/selector_gender_rb"
+                            android:gravity="center_vertical"
+                            android:text="@string/gender_man"
+                            android:textColor="@color/font_light"
+                            android:textSize="16sp" />
+                    </RadioGroup>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/divider_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/nickname"
+                        android:textColor="@color/font_color"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="@string/nickname_hint"
+                        android:paddingLeft="5dp"
+                        android:maxLength="10"
+                        android:textColor="@color/font_color"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/divider_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/your_city"
+                        android:textColor="@color/font_color"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_city_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/more_arrow" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/iv_city_arrow"
+                        android:gravity="center"
+                        android:text="@string/city_sample"
+                        android:textColor="@color/font_color"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_line" />
+
+            
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/order_right"
+                android:background="@drawable/selector_theme_btn"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/white" />
+            
+            <!-- 以下为滚动内容结束 -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

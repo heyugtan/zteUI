@@ -50,5 +50,12 @@
         android:layout_height="40dp"
         android:text="@string/restaurant_detail"
         android:gravity="center" />
+    
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/register_info"
+        android:gravity="center" />
 
 </LinearLayout>

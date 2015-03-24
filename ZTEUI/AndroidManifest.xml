@@ -39,6 +39,7 @@
         <activity android:name="com.isme.zteui.activity.OrderDetailActivity" />
         <activity android:name="com.isme.zteui.activity.ChangePasswdActivity" />
         <activity android:name="com.isme.zteui.activity.RestaurantDetailActivity" />
+        <activity android:name="com.isme.zteui.activity.RegisterActivity" />
         
         <!-- 正式上线将之删除 -->
         <activity android:name="com.isme.zteui.activity.Item" />

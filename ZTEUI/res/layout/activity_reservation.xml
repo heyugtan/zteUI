@@ -65,6 +65,7 @@
                         android:gravity="center_vertical"
                         android:hint="@string/contact_hint"
                         android:paddingLeft="5dp"
+                        android:maxLength="6"
                         android:textColor="@color/font_color"
                         android:textSize="16sp" />
                 </RelativeLayout>
@@ -96,6 +97,7 @@
                         android:hint="@string/contact_phone_hint"
                         android:paddingLeft="5dp"
                         android:inputType="phone"
+                        android:maxLength="13"
                         android:textColor="@color/font_color"
                         android:textSize="16sp" />
                 </RelativeLayout>
@@ -270,6 +272,7 @@
                         android:gravity="center_vertical"
                         android:hint="@string/book_for_other_name_hint"
                         android:paddingLeft="5dp"
+                        android:maxLength="6"
                         android:textColor="@color/font_color"
                         android:textSize="16sp" />
                 </RelativeLayout>
@@ -301,6 +304,7 @@
                         android:hint="@string/book_for_other_phone_hint"
                         android:paddingLeft="5dp"
                         android:inputType="phone"
+                        android:maxLength="13"
                         android:textColor="@color/font_color"
                         android:textSize="16sp" />
                 </RelativeLayout>

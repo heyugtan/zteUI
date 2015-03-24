@@ -79,6 +79,7 @@
                         android:layout_weight="3"
                         android:background="@color/white_lucency"
                         android:gravity="center_vertical"
+                        android:maxLength="15"
                         android:hint="@string/input_name_hint"
                         android:textColor="@color/font_color"
                         android:textSize="15sp" />
@@ -112,6 +113,7 @@
                         android:gravity="center_vertical"
                         android:hint="@string/input_passwd_hint"
                         android:inputType="textPassword"
+                        android:maxLength="20"
                         android:textColor="@color/font_color"
                         android:textSize="15sp" />
                 </LinearLayout>
